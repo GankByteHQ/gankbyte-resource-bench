@@ -8,7 +8,7 @@ It is intentionally different from GankByte's games: this is a practical project
 
 - [Try Resource Bench](https://gankbyte.com/resource-bench.html)
 - [Visit GankByte Labs](https://gankbyte.com/developers.html)
-- [Report a bug](https://github.com/GankByteHQ/gankbyte-website/issues/new/choose)
+- [Report a bug](https://github.com/GankByteHQ/gankbyte-resource-bench/issues/new/choose)
 
 ## What it does
 
@@ -39,10 +39,10 @@ Open <http://localhost:8000>.
 
 ## Project structure
 
-- `index.html` — accessible tool interface.
-- `app.js` — validation, templates, file generation, clipboard, and download behaviour.
-- `styles.css` — standalone presentation and responsive layout.
-- `.github/ISSUE_TEMPLATE/` — bug and feature forms.
+- `index.html` â€” accessible tool interface.
+- `app.js` â€” validation, templates, file generation, clipboard, and download behaviour.
+- `styles.css` â€” standalone presentation and responsive layout.
+- `.github/ISSUE_TEMPLATE/` â€” bug and feature forms.
 
 ## Privacy
 
