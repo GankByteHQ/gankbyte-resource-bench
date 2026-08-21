@@ -1,6 +1,6 @@
 # Contributing to Resource Bench
 
-Resource Bench is a GankByte developer tool. Contributions should keep the tool local, readable, dependency-light, and useful to Lua or FiveM developers.
+Resource Bench is a GankByte developer tool. Contributions should keep the tool local, readable, dependency-light, and useful to Lua, FiveM, Python, Java, web, Minecraft, RuneLite, or data developers.
 
 ## Before opening an issue
 

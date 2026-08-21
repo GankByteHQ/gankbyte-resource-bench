@@ -1,6 +1,6 @@
 # GankByte Resource Bench
 
-Resource Bench is a browser-only developer tool for generating readable starter projects for Lua and FiveM resources.
+Resource Bench is a browser-only developer tool for generating readable starter projects for Lua, FiveM, Python, JavaScript, TypeScript, Java, Minecraft, and SQL.
 
 It is intentionally different from GankByte's games: this is a practical project scaffold, not a score chase or a procedural experiment.
 
@@ -19,13 +19,21 @@ It is intentionally different from GankByte's games: this is a practical project
 - Lua module - a small reusable module with optional tests.
 - Lua configuration package - structured configuration with optional tests.
 - Lua test harness - a dependency-free pass/fail test starter.
+- Python utility - a `pyproject.toml` package with a CLI entry point and optional `unittest` starter.
+- JavaScript tool - an ESM Node utility with an optional Node assertion test.
+- TypeScript tool - a strict Node/TypeScript starter with build configuration and optional test.
+- Java desktop/app starter - a Gradle application with a configurable package, class, and Java toolchain.
+- Minecraft plugin starter - a Gradle Paper API plugin skeleton with `plugin.yml` and a JavaPlugin class.
+- RuneLite plugin starter - a Gradle RuneLite client plugin skeleton with a configurable API version and plugin descriptor.
+- SQL migration starter - PostgreSQL/Supabase, SQLite, or MySQL table migration with an optional development seed.
 
 ## What it does
 
 - Generates FiveM resource starters with `fxmanifest.lua`.
 - Adds optional commands, network events, exports, dependencies, tests, `.gitignore`, and changelog files.
 - Generates NUI, map, command, module, configuration, and test starters.
-- Lets users review, copy, and download individual files or a complete text bundle locally.
+- Generates language-specific build files, package metadata, migrations, plugin descriptors, and runtime entry points.
+- Lets users filter files, review, copy, and download individual files, a complete text bundle, or a ZIP locally.
 - Keeps all configuration and generated code in the browser.
 
 ## What it does not do
@@ -34,7 +42,8 @@ It is intentionally different from GankByte's games: this is a practical project
 - It does not install a resource on a server.
 - It does not validate framework-specific APIs.
 - It does not choose a licence for your work.
-- It does not replace testing in a real Lua or FiveM environment.
+- It does not install language runtimes, Java/Gradle, Node packages, Minecraft servers, or database engines.
+- It does not replace testing in a real project environment.
 
 ## Run locally
 
@@ -49,7 +58,7 @@ Open <http://localhost:8000>.
 ## Project structure
 
 - `index.html` - accessible tool interface.
-- `app.js` - validation, presets, file generation, clipboard, and download behaviour.
+- `app.js` - validation, presets, file generation, filtering, clipboard, ZIP, and download behaviour.
 - `styles.css` and `bench-enhancements.css` - standalone presentation and responsive layout.
 - `.github/ISSUE_TEMPLATE/` - bug and feature forms.
 
