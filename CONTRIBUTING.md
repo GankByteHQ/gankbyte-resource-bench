@@ -1,6 +1,6 @@
 # Contributing to Resource Bench
 
-Resource Bench is a small GankByte developer project. Contributions should keep the tool local, readable, dependency-light, and useful to Lua or FiveM developers.
+Resource Bench is a GankByte developer tool. Contributions should keep the tool local, readable, dependency-light, and useful to Lua or FiveM developers.
 
 ## Before opening an issue
 
@@ -14,8 +14,19 @@ Resource Bench is a small GankByte developer project. Contributions should keep 
 1. Keep the change focused.
 2. Do not add analytics, uploads, token promotion, or hidden network requests.
 3. Preserve keyboard access, labels, reduced-motion support, and clear error messages.
-4. Test the generated output manually and run `node --check app.js`.
-5. Update the README when behaviour or privacy details change.
+4. Test every affected starter preset and inspect the generated manifest and file list.
+5. Run `node --check app.js`.
+6. Update the README when behaviour, starter types, or privacy details change.
+
+## Preset changes
+
+When adding or changing a starter type:
+
+- Keep generated paths predictable and readable.
+- Do not add a network request, analytics, upload, framework dependency, or secret.
+- Include a README and licence reminder unless the preset has a documented reason not to.
+- Validate names before inserting them into Lua, JavaScript, HTML, CSS, or manifest output.
+- Keep the public website copy and this repository in sync.
 
 ## Ownership and licences
 
