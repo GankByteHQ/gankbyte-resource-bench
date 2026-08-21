@@ -1,0 +1,34 @@
+name: Bug report
+description: Report a reproducible Resource Bench problem
+title: "bug: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Please do not include private code, credentials, server addresses, or proprietary game assets."
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: Firefox 128, Chrome 128, Edge 128
+    validations:
+      required: true
+  - type: input
+    id: template
+    attributes:
+      label: Template used
+      placeholder: FiveM resource, Lua module, or Lua test harness
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behaviour
+    validations:
+      required: true
