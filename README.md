@@ -8,7 +8,7 @@ It is intentionally different from GankByte's games: this is a practical project
 
 - [Try Resource Bench](https://gankbyte.com/resource-bench.html)
 - [Visit GankByte Labs](https://gankbyte.com/developers.html)
-- [Report a bug](https://github.com/GankByteHQ/gankbyte-resource-bench/issues/new/choose)
+- [Report a bug](https://github.com/GankByteHQ/gankbyte-website/issues/new/choose)
 
 ## What it does
 
