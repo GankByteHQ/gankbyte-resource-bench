@@ -4,6 +4,10 @@ Resource Bench is a browser-only developer tool for generating readable starter 
 
 It is intentionally different from GankByte's games: this is a practical project scaffold, not a score chase or a procedural experiment.
 
+## Role in GankByte
+
+Resource Bench is GankByte's featured public developer project. It demonstrates the standard we want small tools to meet: useful output, readable source, local-first privacy, responsive accessibility, honest limitations, and a clear path for issues and contributions.
+
 ## Live tool
 
 - [Try Resource Bench](https://gankbyte.com/resource-bench.html)
